@@ -4,7 +4,7 @@ import threading
 PORT = 1234
 SERVER = socket.gethostname()
 ADDR = (SERVER, PORT)
-DISCONNECT = 'terminate connection'
+DISCONNECT = '!DISCONNECT'
 CHUNK_SIZE = 32
 FORMAT = 'utf-8'
 
